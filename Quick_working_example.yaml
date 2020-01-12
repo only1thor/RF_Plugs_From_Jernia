@@ -1,0 +1,31 @@
+# Example configuration.yaml entry
+# Using controller code 11111
+switch:
+  - platform: rpi_rf
+    gpio: 17
+    switches:
+      plug_A:
+        protocol: 1
+        code_on: 16762196   
+        code_off: 16762193
+        signal_repetitions: 15
+      plug_B:
+        protocol: 1
+        code_on: 16765268   
+        code_off: 16765265
+        signal_repetitions: 15
+      plug_C:
+        protocol: 1
+        code_on: 16766036   
+        code_off: 16766033
+        signal_repetitions: 15
+      plug_D:
+        protocol: 1
+        code_on: 16766228   
+        code_off: 16766225
+        signal_repetitions: 15
+      plug_E:
+        protocol: 1
+        code_on: 16766276   
+        code_off: 16766273
+        signal_repetitions: 15
